@@ -86,7 +86,7 @@ public class OrderRepository {
             orderPartnerPairMap.remove(orderID);
         }
 
-       // partnerOrdersMap.remove(partnerId);
+        partnerOrdersMap.remove(partnerId);
 
         deliveryPartnerMap.remove(partnerId);
     }
